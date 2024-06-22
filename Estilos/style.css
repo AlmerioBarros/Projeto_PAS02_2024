@@ -5,3 +5,57 @@
 
     font-family: Arial, Helvetica, sans-serif;
 }
+
+header{
+    padding: 20px;
+
+    background-color: rgba(165, 42, 42, 0.63);
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+
+    padding: 10px;
+
+    background-color: rgba(137, 43, 226, 0.644);
+}
+nav > button{
+    padding: 2px 5px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+    width: 99vw;
+}
+.content{
+    height: 100%;
+    width: 80%;
+    padding: 10px 0px;
+    background-color: black;
+
+}
+.card{
+    height: 50px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 5px 30px 5px 30px;
+
+    background-color: red;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 100px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+
+    padding: 20px;
+
+    background-color: yellow;
+}
