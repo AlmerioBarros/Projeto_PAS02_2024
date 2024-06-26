@@ -36,17 +36,70 @@ main{
     height: 100%;
     width: 80%;
     padding: 10px 0px;
-    background-color: black;
+    background-color: white;
 
 }
-.card{
+
+.card_g{
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px 10%;
+
+    border: 2px solid black;
+    border-radius: 16px;
+
+
+    background-color: white;
+
+}
+.card_g h1{
+    align-self: center;
+    padding: 10px;
+
+    color: black;
+
+}
+
+.imagem_card {
+    align-self: center;
+    padding: 10px;
+
+    height: 10%;
+    width: 30%;
+
+}
+
+.card_g p {
+    display: block;
+    padding: 10px;
+
+    color: black;
+
+}
+
+.card_p{
     height: 50px;
-    margin: 10px;
-    border: 2px solid white;
+
+    margin: 20px 10px;
+
+    text-align: center;
+
+    border: 2px solid black;
     border-radius: 5px 30px 5px 30px;
 
-    background-color: red;
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/032/535/844/large/lucas-emanuel-img-20200824-081642-420.jpg?1606747701');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
 }
+
+.card_p img , p {
+    display: none;
+}
+
+
 
 footer{
     display: flex;
