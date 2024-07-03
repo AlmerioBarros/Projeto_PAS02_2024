@@ -45,6 +45,7 @@ main{
     flex-direction: column;
 
     margin: 10px 10%;
+    padding: 10px;
 
     border: 2px solid black;
     border-radius: 16px;
@@ -88,7 +89,7 @@ main{
     border: 2px solid black;
     border-radius: 5px 30px 5px 30px;
 
-    background-image: url('https://cdna.artstation.com/p/assets/images/images/032/535/844/large/lucas-emanuel-img-20200824-081642-420.jpg?1606747701');
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -111,4 +112,9 @@ footer{
     padding: 20px;
 
     background-color: yellow;
+}
+
+
+.hidden{
+    display: none;
 }

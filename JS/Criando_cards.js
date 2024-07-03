@@ -7,24 +7,29 @@ export default function Criando_card(informações_sobre_o_card) {
     Object.keys(informações_sobre_o_card.pas_02).forEach(e => {
         container_dos_cards.innerHTML += `
         <div class="card_p">
-        <h1>${informações_sobre_o_card["pas_02"][e]["nome"]} </h1>
+            <h1>${informações_sobre_o_card["pas_02"][e]["nome"]} </h1>
+            <img class="imagem_card" src="${informações_sobre_o_card["pas_02"][e]["imagem"]}" alt="Imagem Exemplo">
+            <p>Autor: ${informações_sobre_o_card["pas_02"][e]["autor"]} </p>
+            <p>Descrição: ${informações_sobre_o_card["pas_02"][e]["descrição"]} </p>
+            <p>Caracteristicas: ${informações_sobre_o_card["pas_02"][e]["caracteristicas"]} </p>
         </div>
     `
     })
 
-    
+    const cards = document.querySelectorAll(".card_p")
 
-    console.log()
-
-    
-
-
+    cards.forEach(e => {
+        e.addEventListener('click', () => TrocarClass(e) )
+    })
 
 
-
-    /*container_dos_cards.innerHTML = `
-        <div class="card_p">
-        <h1>${informações_sobre_o_card["pas_01"]["01"]["nome"]} </h1>
-        </div>
-    `*/
+    function TrocarClass(e){
+        if(e.class == "card_p"){
+            e.classList.remove("card_p")
+            e.classList.add("card_g")
+        }else if(e.class == "card_g"){
+            e.classList.remove("card_g")
+            e.classList.add("card_p")
+        }
+    }
 }
