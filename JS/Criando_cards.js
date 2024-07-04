@@ -23,13 +23,8 @@ export default function Criando_card(informações_sobre_o_card) {
     })
 
 
-    function TrocarClass(e){
-        if(e.class == "card_p"){
-            e.classList.remove("card_p")
-            e.classList.add("card_g")
-        }else if(e.class == "card_g"){
-            e.classList.remove("card_g")
-            e.classList.add("card_p")
-        }
+    function TrocarClass(element){
+        element.classList.toggle("card_p")
+        element.classList.toggle("card_g")
     }
 }
