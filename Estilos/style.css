@@ -50,15 +50,13 @@ main{
     border: 2px solid black;
     border-radius: 16px;
 
+    background-color: black;
 
-    background-color: white;
-
+    color: white;
 }
 .card_g h1{
     align-self: center;
     padding: 10px;
-
-    color: black;
 
 }
 
@@ -75,8 +73,6 @@ main{
     display: block;
     padding: 10px;
 
-    color: black;
-
 }
 
 .card_p{
@@ -89,10 +85,12 @@ main{
     border: 2px solid black;
     border-radius: 5px 30px 5px 30px;
 
-    background-image: url();
+    background-image: none;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+
+    color: white;
 
 }
 
@@ -112,9 +110,4 @@ footer{
     padding: 20px;
 
     background-color: yellow;
-}
-
-
-.hidden{
-    display: none;
 }
