@@ -9,9 +9,12 @@ export default function Criando_card(informações_sobre_o_card) {
         <div class=" card  card_p " style="background-image: url(${informações_sobre_o_card["pas_02"][e]["imagem"]});">
             <h1>${informações_sobre_o_card["pas_02"][e]["nome"]} </h1>
             <img class="imagem_card" src="${informações_sobre_o_card["pas_02"][e]["imagem"]}" alt="Imagem Exemplo">
-            <p>Autor: ${informações_sobre_o_card["pas_02"][e]["autor"]} </p>
-            <p>Descrição: ${informações_sobre_o_card["pas_02"][e]["descrição"]} </p>
-            <p>Caracteristicas: ${informações_sobre_o_card["pas_02"][e]["caracteristicas"]} </p>
+            <hr>
+            <p> <span>Autor: </span> ${informações_sobre_o_card["pas_02"][e]["autor"]} </p>
+            <hr>
+            <p> <span>Descrição: </span> ${informações_sobre_o_card["pas_02"][e]["descrição"]} </p>
+            <hr>
+            <p> <span>Caracteristicas: </span> ${informações_sobre_o_card["pas_02"][e]["caracteristicas"]} </p>
         </div>
     `
 
