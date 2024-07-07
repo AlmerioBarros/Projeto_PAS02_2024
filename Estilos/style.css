@@ -16,12 +16,16 @@
 }
 header{
     padding: 20px;
-
     background-color: var(--color06);
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.747);
 
     color: white;
+}
+.container_tema{
+
+    border: 3px solid var(--color01);
+    border-radius: 16px;
 }
 nav{
     display: flex;
@@ -31,6 +35,7 @@ nav{
     padding: 10px;
 
     background-color: var(--color01);
+
 }
 nav > button{
     padding: 3px 10px;
@@ -60,7 +65,7 @@ main{
     background-color: var(--color03);
 
     width: 100%;
-    min-height: 77vh;
+    min-height: 70vh;
 }
 .content{
     width: 80%;
@@ -70,7 +75,6 @@ main{
 
     background-color: var(--color06);
 
-    border-collapse: collapse;
     border-width: 0px 3px 3px 3px;
     border-style: solid;
     border-color: var(--color01);
@@ -95,7 +99,7 @@ main{
     color: black;
 }
 .card_g h1{
-    align-self: center;
+    text-align: center;
     padding: 10px;
     color: var(--color01);
     text-shadow: 1px 1px 2px #61482983;
@@ -170,25 +174,32 @@ main{
 
 
 footer{
-    display: flex;
-    justify-content: space-evenly;
-    column-gap: 100px;
-    row-gap: 20px;
-    flex-wrap: wrap;
-
+    text-align: center;
     padding: 20px;
 
     background-color: var(--color01);
 }
-footer > a{
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+}
+footer h1 {
     color: white;
-
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #4e4336c9 ;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 .redes_social{
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 10px;
+
+    color: white;
+
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #4e4336c9 ;
+}
+.redes_social:hover{
+    cursor: pointer;
+    transform: translate( -1px, -1px);
 }
