@@ -5,27 +5,59 @@
 
     font-family: Arial, Helvetica, sans-serif;
 }
-:root{
-    --color01: #A67A46 ;  /* #A67A46  #ebcba4  #faf0de  #3B3C40  #0D0D0D  */
+.modo_claro * {
+    --color01: #A67A46 ;   /**/
+    --sombra01: #4e4336c9;
     --color02: #ebcba4 ;
     --color03: #faf0de ;
     --color04: #5c5f69 ;
     --color05: rgba(209, 209, 209, 0.733);
     --color06: black;
-
+    --sombra06: rgba(0, 0, 0, 0.747);
+    --color07: white;
+}
+.modo_escuro{
+    --color01: red;
+    --color02: blue;
+    --color03: yellow;
 }
 header{
-    padding: 20px;
+    padding: 20px 0px 0px 0px;
     background-color: var(--color06);
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.747);
 
-    color: white;
+    color: var(--color07);
+}
+.container_botao_tema{
+    display: flex;
+    justify-content: end;
+
+    padding: 0px 190px 30px 0px;
+    margin: 0px;
 }
 .container_tema{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+    width: 70px;
 
     border: 3px solid var(--color01);
+    background-color: var(--color06);
     border-radius: 16px;
+}
+.container_tema:hover{
+    cursor: pointer;
+    transform: translate( -1px, -1px);
+
+}
+.material-symbols-outlined{
+
+    padding: 2px 5px;
+
+    color: var(--color07);
+
 }
 nav{
     display: flex;
@@ -40,22 +72,22 @@ nav{
 nav > button{
     padding: 3px 10px;
 
-    color: white;
-    text-shadow: 1px 1px 1px #5f5241a2 ;
+    color: var(--color07);
+    text-shadow: 1px 1px 1px var(--sombra01) ;
 
     background-color: var(--color01);
 
     border: 3px solid var(--color03);
     border-radius: 10px;
 
-    box-shadow: 2px 2px 5px #4e4336c9 ;
+    box-shadow: 2px 2px 5px var(--sombra01) ;
 
 
 }
 nav > button:hover{
     cursor: pointer;
     transform: translate(-1px , -1px);
-    box-shadow: 5px 5px 5px #524639c9 ;
+    box-shadow: 5px 5px 5px var(--sombra01);
 }
 
 main{
@@ -65,7 +97,7 @@ main{
     background-color: var(--color03);
 
     width: 100%;
-    min-height: 70vh;
+    min-height: 65.3vh;
 }
 .content{
     width: 80%;
@@ -79,7 +111,7 @@ main{
     border-style: solid;
     border-color: var(--color01);
     border-radius: 0px 0px 16px 16px;
-    box-shadow: 2px 2px 3px #8a663b9a;
+    box-shadow: 2px 2px 3px var(--sombra01);
 
 }
 
@@ -92,7 +124,7 @@ main{
 
     border: 3px solid var(--color01);
     border-radius: 16px;
-    box-shadow: 3px 3px 5px #8a663b9a;
+    box-shadow: 3px 3px 5px var(--sombra01);
 
     background-color: var(--color03);
 
@@ -102,7 +134,7 @@ main{
     text-align: center;
     padding: 10px;
     color: var(--color01);
-    text-shadow: 1px 1px 2px #61482983;
+    text-shadow: 1px 1px 2px var(--sombra01);
 
 }
 .card_g span {
@@ -125,9 +157,9 @@ main{
     height: 10%;
     width: 30%;
 
-    border: 10px solid white;
+    border: 10px solid var(--color07);
     outline: 5px solid var(--color01);
-    box-shadow: 7px 7px 10px #725837ab ;
+    box-shadow: 7px 7px 10px var(--sombra01) ;
 
 }
 
@@ -149,14 +181,14 @@ main{
 
     border: 3px solid var(--color01);
     border-radius: 5px 30px 5px 30px;
-    box-shadow: 1px 1px 2px #5c4428be;
+    box-shadow: 1px 1px 2px var(--sombra01);
 
     background-image: none;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 
-    color: white;
+    color: var(--color07);
 
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.767);
 
@@ -184,7 +216,7 @@ footer div {
     justify-content: space-evenly;
 }
 footer h1 {
-    color: white;
+    color: var(--color07);
     font-size: 2em;
     margin-bottom: 20px;
 }
@@ -194,7 +226,7 @@ footer h1 {
     align-items: center;
     column-gap: 10px;
 
-    color: white;
+    color: var(--color07);
 
     text-decoration: none;
     text-shadow: 1px 1px 2px #4e4336c9 ;
