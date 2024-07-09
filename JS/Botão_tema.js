@@ -27,10 +27,6 @@ export default function Botao_tema(){
             body.classList.toggle("modo_claro")
             body.classList.toggle("modo_escuro")
         }
-
-
-
-
     }
 
 }

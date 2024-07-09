@@ -15,12 +15,22 @@
     --color06: black;
     --sombra06: rgba(0, 0, 0, 0.747);
     --color07: white;
+
 }
-.modo_escuro{
-    --color01: red;
-    --color02: blue;
-    --color03: yellow;
+.modo_escuro * {
+    --color01: rgb(75, 75, 75);
+    --sombra01: rgba(56, 56, 56, 0.753);
+    --color02: black;
+    --color03: rgb(151, 151, 151);
+    --color06: black;
+    --sombra06: rgba(51, 51, 51, 0.808);
+    --color07: white;
+
 }
+.modo_escuro h1 {
+    --color01: white;
+}
+
 header{
     padding: 20px 0px 0px 0px;
     background-color: var(--color06);
