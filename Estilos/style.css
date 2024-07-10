@@ -15,9 +15,12 @@
     --color06: black;
     --sombra06: rgba(0, 0, 0, 0.747);
     --color07: white;
+    --paragrafo: black;
+
+    transition: border-color 0.5s , background-color 0.5s , color 0.5s , background-image 0s;
 
 }
-.modo_escuro * {
+.modo_escuro *{
     --color01: rgb(75, 75, 75);
     --sombra01: rgba(56, 56, 56, 0.753);
     --color02: black;
@@ -25,12 +28,14 @@
     --color06: black;
     --sombra06: rgba(51, 51, 51, 0.808);
     --color07: white;
+    --paragrafo: white;
+
+    transition: border-color 0.5s , background-color 0.5s , color 0.5s, background-image 0s;
 
 }
-.modo_escuro h1 {
+.modo_escuro h1{
     --color01: white;
 }
-
 header{
     padding: 20px 0px 0px 0px;
     background-color: var(--color06);
@@ -124,7 +129,6 @@ main{
     box-shadow: 2px 2px 3px var(--sombra01);
 
 }
-
 .card_g{
     display: flex;
     flex-direction: column;
@@ -138,13 +142,18 @@ main{
 
     background-color: var(--color03);
 
-    color: black;
+    color: var(--paragrafo);
+
+    transition: bacground-color 0s;
+
 }
 .card_g h1{
     text-align: center;
     padding: 10px;
     color: var(--color01);
     text-shadow: 1px 1px 2px var(--sombra01);
+
+    transition: color 0s;
 
 }
 .card_g span {
@@ -177,7 +186,8 @@ main{
     display: block;
     padding: 20px;
 
- 
+    color: var(--paragrafo);
+
     text-align: justify;
 
 }
@@ -202,6 +212,10 @@ main{
 
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.767);
 
+}
+.card_p h1{
+    color: white;
+    transition: color 0s;
 }
 
 .card_p img , p , hr {
