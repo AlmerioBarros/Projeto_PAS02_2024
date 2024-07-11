@@ -1,31 +1,67 @@
 {
     "pas_01": {
         "01": {
-
+            "nome": "Panteão de Agripa",
+            "autor": "Marco Vipsânio Agripa",
+            "imagem": "https://live.staticflickr.com/65535/52457396403_1200c6a98e_b.jpg",
+            "caracteristicas": "Arquitetura Grego-Romana / Um dos edifício romano mais conservado do mundo / Preservação e Reconstrução / Simbolo religioso",
+            "descrição":"O Panteão atual é uma reconstrução do antigo Panteão de Agripa, destruído em um incêndio no ano 80 d.C, mas mesmo assim a construção ainda é um grande símbolo religioso e conta com quase  2000 anos de preservação e de uso. O monumento apresenta a arquitetura grego-romana, características das artes clássicas e ainda é usado até hoje no meio religioso como uma igreja."
         },
         "02": {
-
+            "nome": "Catedral Notre-Dame de Reims",
+            "autor": " Arquiteto - Aubry de Humbert entre outros nas reconstruções do monumento",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Reims_Cath%C3%A9drale_Notre-Dame_5002_%28fixed_angles%29.jpg",
+            "caracteristicas": "Arquitetura Gótica / Monumento Religioso / Preservação e Reconstrução ",
+            "descrição":"A catedral de Reims é especialmente conhecida por suas 2.303 estátuas. É o edifício religioso que tem a maior quantidade de estátuas do mundo,sendo delas uma especialmente famosa que é o Anjo Risonho, emblema da cidade de Reims.É uma obra prima da arquitetura gótica com um comprimento de 149,17 metros, altura de 87 metros até o campanário e construida construída sobre uma planta em cruz latina."
         },
         "03": {
-
+            "nome": "A Última Ceia",
+            "autor": "Leonardo da Vinci",
+            "imagem": "https://veja.abril.com.br/wp-content/uploads/2016/06/ultima-ceia-leonardo-da-vinci-original.jpeg?quality=90&strip=info",
+            "caracteristicas": " Obra Religiosa / Afresco / Obra do Renascimento / Técnica do ponto de fuga",
+            "descrição":"Afresco feito por Leonardo da Vinci que retrata o momento bíblico onde Jesus , na última ceia, afirma que um de seus discípulos irá traí-lo. Nesse contexto , ele retrata a Jesus com serenidade e seus discípulos em desordem e indignação. A obra possui características renascentistas um tema religioso."
         },
         "04": {
-            
+            "nome": "O Discóbolo",
+            "autor": " Escultor grego Míron",
+            "imagem": "https://live.staticflickr.com/5183/5665975654_07fc3b772e_b.jpg",
+            "caracteristicas": "",
+            "descrição":""
         },
         "05": {
-            
+            "nome": "Urnas Funerárias",
+            "autor": "Povos indígenas do período de ocupação marajoara na ilha brasileira de Marajó situada na foz do rio Amazonas",
+            "imagem": "https://www.researchgate.net/publication/346876477/figure/fig4/AS:967583427723264@1607701274204/Figura-6-Urna-funeraria-Marajoara-estilo-Joanes-Pintado-Acervo-do-Museu-Paraense.png",
+            "caracteristicas": "",
+            "descrição":""
         },
         "06": {
-            
+            "nome": "Sereias (conjunto/grupo 1)",
+            "autor": "J.Borges",
+            "imagem": "https://live.staticflickr.com/2679/4169108126_c1524f695a_n.jpg",
+            "caracteristicas": "",
+            "descrição":""
         },
         "07": {
-            
+            "nome": "Busto de Nefertiti",
+            "autor": " Escultor Tutemés (1345 a.C).",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnZUUfTvsdAtmOS1nXY8KsZjBEYEGFeXd0Hg&s",
+            "caracteristicas": "",
+            "descrição":""
         },
         "08": {
-            
+            "nome": "Sítio Histórico do Templo Mayor de Tenochtitlan",
+            "autor": " Povo Asteca",
+            "imagem": "https://www.worldhistory.org/uploads/images/1439.jpg",
+            "caracteristicas": "",
+            "descrição":""
         },
         "09": {
-            
+            "nome": "Petra – Sítio arqueológico na Jordânia",
+            "autor": "Povo nabateus / Apresentado para o ocidental pelo explorador suíço Johann Ludwig Burckhardt",
+            "imagem": "https://thumbs.dreamstime.com/b/gente-en-plaza-cerca-del-templo-del-al-khazneh-en-el-petra-89805845.jpg",
+            "caracteristicas": "",
+            "descrição":""
         }
     }
 

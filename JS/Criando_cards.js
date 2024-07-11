@@ -10,7 +10,7 @@ export default function Criando_card(informações_sobre_o_card) {
             <h1>${informações_sobre_o_card["pas_02"][e]["nome"]} </h1>
             <img class="imagem_card" src="${informações_sobre_o_card["pas_02"][e]["imagem"]}" alt="Imagem Exemplo">
             <hr>
-            <p> <span>Autor: </span> ${informações_sobre_o_card["pas_02"][e]["autor"]} </p>
+            <p> <span>Criador(s): </span> ${informações_sobre_o_card["pas_02"][e]["autor"]} </p>
             <hr>
             <p> <span>Descrição: </span> ${informações_sobre_o_card["pas_02"][e]["descrição"]} </p>
             <hr>
