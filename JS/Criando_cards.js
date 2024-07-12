@@ -1,20 +1,22 @@
 
 
-export default function Criando_card(informações_sobre_o_card) {
+export default function Criando_card(informações_sobre_o_card,qual_pas) {
 
     const container_dos_cards = document.getElementById('contem_cards')
 
-    Object.keys(informações_sobre_o_card.pas_02).forEach(e => {
+    container_dos_cards.innerHTML = ``
+
+    Object.keys(informações_sobre_o_card[qual_pas]).forEach(e => {
         container_dos_cards.innerHTML += `
-        <div class=" card  card_p " style="background-image: url(${informações_sobre_o_card["pas_02"][e]["imagem"]});">
-            <h1>${informações_sobre_o_card["pas_02"][e]["nome"]} </h1>
-            <img class="imagem_card" src="${informações_sobre_o_card["pas_02"][e]["imagem"]}" alt="Imagem Exemplo">
+        <div class=" card  card_p " style="background-image: url(${informações_sobre_o_card[qual_pas][e]["imagem"]});">
+            <h1>${informações_sobre_o_card[qual_pas][e]["nome"]} </h1>
+            <img class="imagem_card" src="${informações_sobre_o_card[qual_pas][e]["imagem"]}" alt="Imagem Exemplo">
             <hr>
-            <p> <span>Criador(s): </span> ${informações_sobre_o_card["pas_02"][e]["autor"]} </p>
+            <p> <span>Criador(s): </span> ${informações_sobre_o_card[qual_pas][e]["autor"]} </p>
             <hr>
-            <p> <span>Descrição: </span> ${informações_sobre_o_card["pas_02"][e]["descrição"]} </p>
+            <p> <span>Descrição: </span> ${informações_sobre_o_card[qual_pas][e]["descrição"]} </p>
             <hr>
-            <p> <span>Caracteristicas: </span> ${informações_sobre_o_card["pas_02"][e]["caracteristicas"]} </p>
+            <p> <span>Caracteristicas: </span> ${informações_sobre_o_card[qual_pas][e]["caracteristicas"]} </p>
         </div>
     `
 
