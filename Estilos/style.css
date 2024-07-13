@@ -7,7 +7,7 @@
 }
 .modo_claro * {
     --color01: #A67A46 ;   /**/
-    --sombra01: #4e4336c9;
+    --sombra01: #52483b7c;
     --color02: #ebcba4 ;
     --color03: #faf0de ;
     --color04: #5c5f69 ;
@@ -22,7 +22,7 @@
 }
 .modo_escuro *{
     --color01: rgb(75, 75, 75);
-    --sombra01: rgba(56, 56, 56, 0.753);
+    --sombra01: rgba(85, 85, 85, 0.514);
     --color02: black;
     --color03: rgb(151, 151, 151);
     --color06: black;
@@ -126,7 +126,8 @@ main{
     border-style: solid;
     border-color: var(--color01);
     border-radius: 0px 0px 16px 16px;
-    box-shadow: 2px 2px 3px var(--sombra01);
+
+    box-shadow: 2px 2px 4px var(--sombra01);
 
 }
 .card_g{
@@ -201,7 +202,7 @@ main{
 
     border: 3px solid var(--color01);
     border-radius: 5px 30px 5px 30px;
-    box-shadow: 1px 1px 2px var(--sombra01);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0) inset;
 
     background-image: none;
     background-repeat: no-repeat;
