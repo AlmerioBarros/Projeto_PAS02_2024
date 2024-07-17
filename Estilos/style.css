@@ -115,10 +115,14 @@ main{
     min-height: 65.3vh;
 }
 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     width: 80%;
-    height: 99%;
 
     margin-bottom: 20px;
+    padding: 20px 5px;
 
     background-color: var(--color06);
 
@@ -201,7 +205,8 @@ main{
 
     height: 60px;
 
-    margin: 20px 10px;
+    margin: 0px 5px 15px 5px;
+    padding: 5px 2px 5px 2px;
 
     text-align: center;
     overflow: hidden;
@@ -240,7 +245,7 @@ main{
 
 footer{
     text-align: center;
-    padding: 0px 10px 0px 0px;
+    padding: 10px 0px 0px 0px;
 
     background-color: var(--color01);
 }

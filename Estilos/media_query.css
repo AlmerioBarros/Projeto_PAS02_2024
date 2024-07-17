@@ -1,0 +1,33 @@
+@media screen and (min-width: 800px) {
+
+    div.container_botao_tema{
+        justify-content: end;
+        padding: 20px 100px 20px 0px;
+
+    }
+
+    div.card_p{
+        height: 60px;
+        padding: 5px 2px 5px 2px;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    div.container_botao_tema{
+        justify-content: end;
+        padding: 20px 180px 20px 0px;
+
+    }
+
+    div.card_p{
+        height: 60px;
+
+        margin: 0px 10px 20px 10px;
+    }
+    div.card_p h1{
+        font-size: 1.7em;
+    }
+
+}
