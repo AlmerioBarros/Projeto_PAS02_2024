@@ -1,6 +1,8 @@
 
 import Criando_card from "./Criando_cards.js";
 import Botao_tema from "./Botão_tema.js";
+import Botoes_pas from "./Botões_pas.js";
+
 
 async function Conectando_APIs(){
 
@@ -14,5 +16,7 @@ async function Conectando_APIs(){
 Conectando_APIs()
 
 Botao_tema()
+
+Botoes_pas()
 
 

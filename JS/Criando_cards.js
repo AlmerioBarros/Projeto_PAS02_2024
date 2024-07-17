@@ -22,6 +22,8 @@ export default function Criando_card(informações_sobre_o_card,qual_pas) {
 
     })
 
+    /*Ação de click no card*/
+
     const cards = document.querySelectorAll(".card")
 
     cards.forEach(e => {

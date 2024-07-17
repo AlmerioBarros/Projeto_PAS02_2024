@@ -277,3 +277,31 @@ footer h1 {
     cursor: pointer;
     transform: translate( -1px, -1px);
 }
+
+::-webkit-scrollbar{
+    width: 0.8em;
+}
+
+* .modo_claro::-webkit-scrollbar-thumb{
+    background-color: #A67A46;
+
+    border-radius: 16px;
+    border: 1px solid #faf0de;
+    box-sizing: border-box;
+}
+* .modo_claro::-webkit-scrollbar-track{
+    background-color:  #faf0de;
+    box-shadow: inset 1px 1px 5px #dfd5c483;
+}
+
+* .modo_escuro::-webkit-scrollbar-thumb{
+    background-color: rgb(75, 75, 75);
+
+    border-radius: 16px;
+    border: 1px solid rgb(151, 151, 151);
+    box-sizing: border-box;
+}
+* .modo_escuro::-webkit-scrollbar-track{
+    background-color: rgb(151, 151, 151);
+    box-shadow: inset 1px 1px 5px rgba(107, 107, 107, 0.726);
+}
