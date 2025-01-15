@@ -36,6 +36,8 @@
 .modo_escuro h1{
     --color01: white;
 }
+
+
 header{
     padding: 20px 0px 0px 0px;
     background-color: var(--color06);
@@ -104,6 +106,8 @@ nav > button:hover{
     transform: translate(-1px , -1px);
     box-shadow: 5px 5px 5px var(--sombra01);
 }
+
+
 
 main{
     display: flex;
@@ -277,6 +281,7 @@ footer h1 {
     cursor: pointer;
     transform: translate( -1px, -1px);
 }
+
 
 ::-webkit-scrollbar{
     width: 0.8em;
